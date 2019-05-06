@@ -1,0 +1,39 @@
+{
+  "name": "auth.js",
+  "version": "1.0.0",
+  "description": "*  En la carpeta [auth-alu0101049687](../master/auth-alu0101049687/) podemos hallar el módulo de autenticación creado. * En este módulo se especifican las diferentes acciones que podrá realizar el usuario con el fin de visualizar el contenido protegido, incluyendo /login, /register y /logout. * Además se especifican las correspondientes views que le aparecerán al usar las acciones especificadas anterioremente.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "nodemon server.js"
+  },
+  "author": "Akshay <alu0101043739@ull.edu.es> (https://github.com/dreamz11)",
+  "license": "ISC",
+  "dependencies": {
+    "@dreamz11/auth": "^1.0.1",
+    "@ull-esit-pl/auth": "^1.0.6",
+    "basic": "^2.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "ip": "^1.1.5",
+    "jsonfile": "*",
+    "nodemon": "^1.18.11",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0101049687/auth-alu0101049687-alu0101043739.git"
+  },
+  "keywords": [
+    "auth"
+  ],
+  "bugs": {
+    "url": "https://github.com/alu0101049687/auth-alu0101049687-alu0101043739/issues"
+  },
+  "homepage": "https://github.com/alu0101049687/auth-alu0101049687-alu0101043739#readme"
+}
